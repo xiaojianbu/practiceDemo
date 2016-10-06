@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>demo1.1 by jQuery</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="jquery-3.1.1.js"></script>
+    <script>
+    $(function() {
+        var $btns = $(".container:first");
+        var $divDemo = $(".init:first");
+        $btns.click(function(event) {
+            switch (event.target.className) {
+
+                case "changeWidth":
+                    $divDemo.addClass('width');
+                    break;
+                case "changeHigh":
+                    $divDemo.addClass('height');
+                    break;
+                case "changeColor":
+                    $divDemo.addClass('redColor');
+                    break;
+                case "changeDisplay":
+                    $divDemo.addClass('hide');
+                    break;
+                case "reset":
+                    $divDemo.attr("class", "init");
+                    break;
+                default:
+
+                    break;
+            }
+        });
+    })
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <button class="changeWidth">变宽</button>
+        <button class="changeHigh">变高</button>
+        <button class="changeColor">变色</button>
+        <button class="changeDisplay">隐藏</button>
+        <button class="reset">重置</button>
+        <div class="init"></div>
+    </div>
+</body>
+
+</html>

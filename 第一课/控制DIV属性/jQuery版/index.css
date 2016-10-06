@@ -1,0 +1,30 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.init {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #000;
+    display: block;
+}
+
+.width {
+    width: 200px;
+}
+
+.height {
+    height: 200px;
+}
+
+.redColor {
+    background-color: #ff0000;
+}
+
+.hide {
+    display: none;
+}
