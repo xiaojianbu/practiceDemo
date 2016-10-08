@@ -1,0 +1,18 @@
+.main {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    background-color: black;
+}
