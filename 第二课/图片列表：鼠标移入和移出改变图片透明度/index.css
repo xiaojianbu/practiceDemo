@@ -1,0 +1,21 @@
+.main {
+    width: 700px;
+	overflow: auto;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding-top: 10px;
+	padding-left: 10px;
+}
+
+img {
+    float: left;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    opacity: 0.5;
+}
+
+img:hover {
+	cursor: crosshair;
+	opacity: 1;
+}

@@ -1,0 +1,25 @@
+.main {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.btns {
+    margin-left: 48px;
+}
+
+.demo {
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+input {
+    padding: 3px;
+    margin-left: -5px;
+}
