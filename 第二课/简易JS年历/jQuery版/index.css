@@ -1,0 +1,68 @@
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 240px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px;
+    background-color: #ccc;
+}
+
+.month {
+    width: 48px;
+    height: 43px;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+    margin: 5px;
+    background-color: #000;
+    color: #fff;
+    padding-top: 5px;
+    border: 1px solid #000;
+}
+
+.month h6 {
+    font-size: 20px;
+}
+
+.month p {
+    font-size: 14px;
+}
+
+
+/*.month:hover {
+    border: 1px solid #000;
+    cursor: pointer;
+    color: #f00;
+    background-color: #fff;
+}*/
+
+.info {
+    clear: both;
+    background-color: #eee;
+    padding: 5px;
+    display: none;
+}
+
+.info h6 {
+    font-size: 18px;
+}
+
+.info p {
+    font-size: 12px;
+}
+
+.infoShow {
+    display: block;
+}
+
+.monthShow {
+    border: 1px solid #000;
+    cursor: pointer;
+    color: #f00;
+    background-color: #fff;
+}
