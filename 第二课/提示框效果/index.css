@@ -1,0 +1,53 @@
+h4,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 550px;
+    margin: 0 auto;
+    padding: 0 0 10px 10px;
+    overflow: auto;
+    border: 1px solid #000;
+}
+
+.main h4 {
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.car {
+    width: 78px;
+    height: 78px;
+    margin: 10px 10px 0 0;
+    padding: 10px;
+    float: left;
+    background-color: #eee;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.car p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+img {
+    z-index: 999;
+    width: 128px;
+    height: 128px;
+    border: 1px solid #ccc;
+    z-index: 999;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    display: none;
+}
+
+.show {
+    display: block;
+    cursor: crosshair;
+}
