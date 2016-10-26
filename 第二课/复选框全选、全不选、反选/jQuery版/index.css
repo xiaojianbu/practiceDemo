@@ -1,0 +1,48 @@
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.main label {
+    margin: 0 10px;
+}
+
+.list {
+    width: 150px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.list .control {
+    height: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.control a {
+    text-decoration: none;
+}
+
+.control label {
+    font-weight: bold;
+}
+
+.list li {
+    margin-top: 10px;
+}
+
+p {
+    font-size: 12px;
+}
