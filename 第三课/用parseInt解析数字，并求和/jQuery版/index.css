@@ -1,0 +1,19 @@
+.main {
+	width: 400px;
+	margin: 0 auto;
+}
+
+input {
+	width: 50px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+}
+
+.sum {
+	color: green;
+	font-size: 12px;
+}
+
+button {
+	margin-left: 5px;
+}
